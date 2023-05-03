@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+            background-image: url("abstrak.jfif");
+        }
+        
+        .login {
+            margin: 250px auto;
+            width: 400px;
+            padding: 100px;
+            border: 1px solid #ccc;
+            background: rgb(163, 191, 231);
+        }
+        
+        input[type=text],
+        input[type=password] {
+            margin: 5px auto;
+            width: 100%;
+            padding: 10px;
+        }
+        
+        input[type=submit] {
+            margin 5px auto;
+            float: right;
+            padding: 5px;
+            width: 90px;
+            border: 1px solid #fff;
+            color: #fff;
+            background: rgb(12, 12, 12);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <form action="Makalah_RPL_kel_1.pdf">
+            <h2>Silahkan Login</h2>
+            <tr>
+                <td>
+                    <label>Email</label>
+                    <input type="text" name="email" placeholder="Masukan email Anda">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                    <input type="password" name="pass" placeholder="Masukan Passord"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ingat saya">Ingat Saya</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <button onclick="return berhasillogin()">Kirim</button>
+        </form>
+    </div>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            function berhasillogin() {
+                var berhasillogin = alert(
+                    "Berhasil login,Silahkan lanjut halaman selanjutnya"
+                );
+            }
+        </script>
+    </body>
+
+</html>

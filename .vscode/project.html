@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaraan Email</title>
+    <style>
+        body {
+            background-image: url("mhs.jfif");
+        }
+        
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        .Login {
+            margin: auto;
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            font-style: normal;
+            font-weight: 100;
+            background-color: azure;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            margin: 10px auto;
+            width: 50%;
+            padding: 10px;
+        }
+        
+        button {
+            background-color: silver;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Login">
+        <form action="Login.html">
+            <h1>Sign Up Email</h1>
+            <tr>
+                <td><label for="nama">Nama</label>
+                    <br>
+                    <input type="text" name="nama" placeholder="Nama depan"></td>
+                <input type="text" name="nama" placeholder="Nama belakang">
+            </tr>
+            <p></p>
+            <tr>
+                <td><label for="username">Membuat username</label>
+                    <br>
+                    <input type="text" name="username" placeholder="Contoh123@gmail.com" /></td>
+            </tr>
+            <p></p>
+            <tr>
+                <td><label for="kata sandi">kata sandi</label>
+                    <br>
+                    <input type="password" name="kata sandi" placeholder="" /></td>
+            </tr>
+            <p></p>
+            <tr>
+                <td><label for="konfitmasi kata sandi">Konfirmasi kata sandi</label>
+                    <br>
+                    <input type="password" name="konfirmasi kata sandi" placeholder="" /></td>
+            </tr>
+            <p></p>
+            <td><label for="Tanggal Lahir">Tanggal Lahir</label>
+                <br>
+                <input type="number" name="bulan" placeholder="bulan">
+                <input type="number" name="tanggal" placeholder="tanggal" />
+                <input type="number" name="tahun" placeholder="tahun">
+            </td>
+            <P><label for="jenis kelamin"> jenis kelamin</label></P>
+            <select>
+                <option value="Laki laki">laki laki</option>
+                <option value="perempuan">perempuan</option>
+            </select>
+            <p></p>
+            <tr>
+                <td><label for="phone number">phone number</label>
+                    <br>
+                    <input type="number" name="phone number">
+                </td>
+            </tr>
+            <p></p>
+            <tr>
+                <td>
+                    <label for="Alamat email">Alamat email</label>
+                    <br>
+                    <input type="email" name="alamat email" id="alamat email" placeholder="Alamat email pemulihan">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <p></p>
+            <tr>
+                <td><label for="Negara">Negara</label>
+                    <br>
+                    <input type="text" name="negara" id="negara">
+                </td>
+            </tr>
+            <p></p>
+            <button onclick="return berhasildaftar()">Daftar</button>
+        </form>
+    </div>
+    <script type="text/javascript">
+        function berhasildaftar() {
+            var berhasildaftar = alert(
+                "Berhasil daftar, Silahkan Login untuk melanjutkan"
+            );
+        }
+    </script>
+</body>
+
+</html>
